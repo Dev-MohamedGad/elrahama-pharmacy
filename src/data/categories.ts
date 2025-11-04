@@ -1,46 +1,60 @@
 import { Category } from '../types';
+import category1 from '../images/cateories-1.jpeg';
+import category2 from '../images/cateories-2.jpeg';
+import category3 from '../images/cateories-3.jpeg';
+import category4 from '../images/cateories-4.jpeg';
+import category5 from '../images/cateories-5.jpeg';
+import category6 from '../images/cateories-6.jpeg';
+import category7 from '../images/cateories-8.jpeg';
 
 export const categories: Category[] = [
   {
     id: '1',
-    title: 'Web Design',
-    description: 'Creating stunning, user-friendly websites that captivate audiences and drive engagement. Our designs blend aesthetics with functionality.',
-    imageUrl: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
-    tags: ['UI/UX', 'Responsive', 'Modern']
+    title: 'Prescription Medications',
+    description: 'Comprehensive range of prescription medications for various health conditions. All medications are sourced from licensed suppliers and stored under optimal conditions.',
+    imageUrl: category1,
+    tags: ['Prescription', 'Licensed', 'Quality']
   },
   {
     id: '2',
-    title: 'Mobile Apps',
-    description: 'Building intuitive mobile experiences for iOS and Android that users love. Native performance meets beautiful design.',
-    imageUrl: 'https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=800',
-    tags: ['iOS', 'Android', 'React Native']
+    title: 'Over-the-Counter Products',
+    description: 'Wide selection of OTC medications, vitamins, and supplements to support your daily health and wellness needs.',
+    imageUrl: category2,
+    tags: ['OTC', 'Vitamins', 'Supplements']
   },
   {
     id: '3',
-    title: 'Brand Identity',
-    description: 'Crafting memorable brand identities that resonate with your audience and stand out in the marketplace.',
-    imageUrl: 'https://images.pexels.com/photos/3585089/pexels-photo-3585089.jpeg?auto=compress&cs=tinysrgb&w=800',
-    tags: ['Logo', 'Guidelines', 'Strategy']
+    title: 'Personal Care',
+    description: 'Premium personal care products including skincare, hair care, and hygiene essentials for your daily routine.',
+    imageUrl: category3,
+    tags: ['Skincare', 'Hair Care', 'Hygiene']
   },
   {
     id: '4',
-    title: 'E-Commerce',
-    description: 'Developing powerful online stores that convert visitors into customers with seamless shopping experiences.',
-    imageUrl: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-    tags: ['Shopify', 'WooCommerce', 'Custom']
+    title: 'Baby Care',
+    description: 'Gentle and safe baby care products including diapers, baby formula, and specialized infant care items.',
+    imageUrl: category4,
+    tags: ['Baby', 'Infant', 'Safe']
   },
   {
     id: '5',
-    title: 'Digital Marketing',
-    description: 'Strategic campaigns that amplify your brand reach and generate measurable results across all digital channels.',
-    imageUrl: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800',
-    tags: ['SEO', 'Social Media', 'Analytics']
+    title: 'Medical Equipment',
+    description: 'Essential medical equipment and supplies including blood pressure monitors, thermometers, and first aid kits.',
+    imageUrl: category5,
+    tags: ['Equipment', 'Monitoring', 'First Aid']
   },
   {
     id: '6',
-    title: 'Photography',
-    description: 'Professional photography services that capture your brand essence with stunning visual storytelling.',
-    imageUrl: 'https://images.pexels.com/photos/278887/pexels-photo-278887.jpeg?auto=compress&cs=tinysrgb&w=800',
-    tags: ['Product', 'Portrait', 'Commercial']
+    title: 'Health Supplements',
+    description: 'High-quality health supplements and nutritional products to support your wellness journey and dietary needs.',
+    imageUrl: category6,
+    tags: ['Supplements', 'Nutrition', 'Wellness']
+  },
+  {
+    id: '7',
+    title: 'Specialty Care',
+    description: 'Specialized pharmaceutical products and care solutions for specific health conditions and treatments.',
+    imageUrl: category7,
+    tags: ['Specialty', 'Treatment', 'Care']
   }
 ];
