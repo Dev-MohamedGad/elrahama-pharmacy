@@ -67,7 +67,7 @@ export const Footer = () => {
               </li>
               <li className="flex items-center gap-2 text-gray-400 text-sm">
                 <span className="font-semibold">Hours:</span>
-                <span>Daily 9:00 AM - 10:00 PM</span>
+                <span>24 Hours</span>
               </li>
             </ul>
           </div>

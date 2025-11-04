@@ -95,7 +95,7 @@ export const Contact = () => {
                   <h4 className="font-bold text-gray-900 mb-2 text-lg">Opening Hours</h4>
                   <div className="px-4 py-2 bg-pink-50 rounded-lg">
                     <p className="text-gray-700 font-medium">
-                      Daily: <span className="text-pink-600">9:00 AM - 10:00 PM</span>
+                      <span className="text-pink-600">24 Hours</span>
                     </p>
                   </div>
                 </div>
