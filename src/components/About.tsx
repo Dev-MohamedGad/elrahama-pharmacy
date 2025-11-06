@@ -15,12 +15,12 @@ export const About = () => {
     {
       icon: Award,
       title: 'Quality Guaranteed',
-      description: 'All products sourced from trusted manufacturers and suppliers.'
+      description: 'All services provided by licensed and certified healthcare professionals.'
     },
     {
       icon: Clock,
       title: '24/7 Availability',
-      description: 'Emergency services and prescription refills available round the clock.'
+      description: 'Emergency consultation services and appointment booking available round the clock.'
     }
   ];
 
@@ -32,7 +32,7 @@ export const About = () => {
             About Alrahma Pharmacies
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Your trusted healthcare partner committed to providing quality pharmaceutical services and products
+            Your trusted healthcare partner committed to providing quality medical services and professional healthcare support
           </p>
         </div>
 
@@ -40,10 +40,10 @@ export const About = () => {
           <div>
             <h3 className="text-2xl font-bold text-pink-700 mb-4">Our Mission</h3>
             <p className="text-gray-600 leading-relaxed mb-4">
-              At Alrahma Pharmacies, we are dedicated to providing exceptional pharmaceutical care and services to our community. We believe in accessible, quality healthcare for everyone.
+              At Alrahma Pharmacies, we are dedicated to providing exceptional medical services and healthcare support to our community. We believe in accessible, quality healthcare services for everyone.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              Our team of licensed pharmacists is committed to ensuring that every prescription is filled accurately and that our customers receive personalized care and expert advice.
+              Our team of licensed healthcare professionals is committed to providing professional medical services including consultations, vaccinations, prescription reading, and medication delivery services.
             </p>
           </div>
           <div>
@@ -51,23 +51,23 @@ export const About = () => {
             <ul className="space-y-3 text-gray-600">
               <li className="flex items-start gap-2">
                 <span className="text-pink-600 font-bold">•</span>
-                <span>Comprehensive range of prescription and over-the-counter medications</span>
+                <span>Professional medical consultation and prescription reading services</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-pink-600 font-bold">•</span>
-                <span>Professional consultation and medication counseling</span>
+                <span>Licensed healthcare professionals providing expert guidance</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-pink-600 font-bold">•</span>
-                <span>Competitive pricing and insurance acceptance</span>
+                <span>Vaccination and immunization services</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-pink-600 font-bold">•</span>
-                <span>Convenient location with ample parking</span>
+                <span>Convenient appointment booking system</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-pink-600 font-bold">•</span>
-                <span>Home delivery and prescription refill services</span>
+                <span>Home delivery service for prescribed medications</span>
               </li>
             </ul>
           </div>

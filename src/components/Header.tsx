@@ -19,9 +19,6 @@ export const Header = () => {
           </div>
 
           <div className="hidden md:flex items-center gap-6">
-            <a href="#categories" className="text-sm font-medium text-gray-700 hover:text-pink-700 transition-colors">
-              Categories
-            </a>
             <a href="#about" className="text-sm font-medium text-gray-700 hover:text-pink-700 transition-colors">
               About
             </a>
@@ -43,7 +40,7 @@ export const Header = () => {
                   Privacy Policy
                 </a>
                 <a href="#return-policy" className="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-50 hover:text-pink-700 transition-colors">
-                  Return Policy
+                  Service Policy
                 </a>
                 <a href="#terms-conditions" className="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-50 hover:text-pink-700 transition-colors">
                   Terms & Conditions
@@ -81,9 +78,6 @@ export const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden pb-4 border-t border-pink-100 mt-2 pt-4">
             <div className="flex flex-col gap-4">
-              <a href="#categories" className="text-sm font-medium text-gray-700 hover:text-pink-700 transition-colors" onClick={() => setIsMenuOpen(false)}>
-                Categories
-              </a>
               <a href="#about" className="text-sm font-medium text-gray-700 hover:text-pink-700 transition-colors" onClick={() => setIsMenuOpen(false)}>
                 About
               </a>
@@ -99,7 +93,7 @@ export const Header = () => {
                   Privacy Policy
                 </a>
                 <a href="#return-policy" className="block text-sm font-medium text-gray-700 hover:text-pink-700 transition-colors py-1" onClick={() => setIsMenuOpen(false)}>
-                  Return Policy
+                  Service Policy
                 </a>
                 <a href="#terms-conditions" className="block text-sm font-medium text-gray-700 hover:text-pink-700 transition-colors py-1" onClick={() => setIsMenuOpen(false)}>
                   Terms & Conditions

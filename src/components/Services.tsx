@@ -1,36 +1,26 @@
-import { Pill, Heart, Stethoscope, Truck, FileText, Calendar } from 'lucide-react';
+import { Calendar, Syringe, Truck, FileText } from 'lucide-react';
 
 export const Services = () => {
   const services = [
     {
-      icon: Pill,
-      title: 'Prescription Filling',
-      description: 'Fast and accurate prescription processing with professional consultation.'
+      icon: Calendar,
+      title: 'Appointment Booking',
+      description: 'Book appointments for medical consultations and health services. Schedule your visit conveniently through our service.'
     },
     {
-      icon: Heart,
-      title: 'Health Consultations',
-      description: 'Expert advice from licensed pharmacists on medications and health conditions.'
-    },
-    {
-      icon: Stethoscope,
-      title: 'Health Screenings',
-      description: 'Blood pressure monitoring, glucose testing, and other health check services.'
+      icon: Syringe,
+      title: 'Vaccination Services',
+      description: 'Receive vaccinations and immunization services. Professional vaccination administration by licensed healthcare professionals.'
     },
     {
       icon: Truck,
-      title: 'Home Delivery',
-      description: 'Convenient delivery service for your medications and health products.'
+      title: 'Medication Delivery',
+      description: 'Home delivery service for prescribed medications. We deliver your medications safely to your doorstep.'
     },
     {
       icon: FileText,
-      title: 'Prescription Refills',
-      description: 'Easy online and phone prescription refill services.'
-    },
-    {
-      icon: Calendar,
-      title: 'Medication Management',
-      description: 'Help organizing and tracking your medications for optimal health outcomes.'
+      title: 'Prescription Reading',
+      description: 'Professional prescription reading and consultation services. Get expert guidance on your prescribed medications.'
     }
   ];
 
@@ -42,7 +32,7 @@ export const Services = () => {
             Our Services
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Comprehensive pharmaceutical services tailored to meet all your healthcare needs
+            Professional medical services focused on providing healthcare support and consultation
           </p>
         </div>
 

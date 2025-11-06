@@ -8,7 +8,7 @@ export const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Alrahma Pharmacies</h3>
             <p className="text-gray-400 leading-relaxed">
-              Your trusted partner for quality pharmaceutical products and healthcare solutions.
+              Your trusted partner for quality medical services and professional healthcare support.
             </p>
           </div>
 
@@ -16,13 +16,13 @@ export const Footer = () => {
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-3">
               <li>
-                <a href="#categories" className="text-gray-400 hover:text-white transition-colors">
-                  Categories
+                <a href="#about" className="text-gray-400 hover:text-white transition-colors">
+                  About Us
                 </a>
               </li>
               <li>
-                <a href="#about" className="text-gray-400 hover:text-white transition-colors">
-                  About Us
+                <a href="#services" className="text-gray-400 hover:text-white transition-colors">
+                  Services
                 </a>
               </li>
               <li>
@@ -129,7 +129,7 @@ export const Footer = () => {
               </a>
               <span className="text-gray-600">|</span>
               <a href="#return-policy" className="text-gray-400 hover:text-white transition-colors">
-                Return Policy
+                Service Policy
               </a>
               <span className="text-gray-600">|</span>
               <a href="#terms-conditions" className="text-gray-400 hover:text-white transition-colors">
