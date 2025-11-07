@@ -79,6 +79,38 @@ export const PrivacyPolicy = () => {
             You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.
           </p>
 
+          <h2 className="text-2xl font-bold text-pink-700 mt-8 mb-4">WhatsApp Privacy and Data Sharing</h2>
+          <div className="bg-pink-50 border-r-4 border-pink-600 p-6 rounded-lg mb-6">
+            <p className="text-gray-800 font-semibold mb-3">
+              عند التواصل معنا عبر تطبيق WhatsApp، يرجى العلم بأن:
+            </p>
+            <ul className="list-disc pl-6 space-y-2 text-gray-700">
+              <li>بإرسالك لأي رسالة أو اتصال عبر WhatsApp، فإنك توافق صراحةً على مشاركة بياناتك الشخصية (مثل رقم الهاتف والاسم والمعلومات الطبية المقدمة) معنا.</li>
+              <li>نستخدم هذه المعلومات فقط لتقديم الخدمات الطبية والاستشارية المطلوبة.</li>
+              <li>بياناتك محمية وفقاً لسياسة الخصوصية الخاصة بنا، ولا نشاركها مع أطراف ثالثة دون موافقتك الصريحة.</li>
+              <li>تطبيق WhatsApp له سياسة خصوصية خاصة به، وننصحك بمراجعتها لفهم كيفية معالجة بياناتك من قبل المنصة.</li>
+            </ul>
+            <p className="text-gray-800 font-semibold mt-4">
+              By contacting us via WhatsApp, you explicitly agree to share your personal data (including phone number, name, and any medical information provided) with us for the purpose of receiving our services.
+            </p>
+          </div>
+
+          <h2 className="text-2xl font-bold text-pink-700 mt-8 mb-4">Service Disclaimer</h2>
+          <div className="bg-yellow-50 border-r-4 border-yellow-500 p-6 rounded-lg mb-6">
+            <p className="text-gray-800 font-bold text-lg mb-3">
+              ⚠️ تنبيه مهم:
+            </p>
+            <p className="text-gray-800 font-semibold mb-2">
+              الخدمات المقدمة من خلال هذا الموقع غير متعلقة بالبيع أو الدعاية لأي منتجات طبية أو دوائية.
+            </p>
+            <p className="text-gray-700">
+              نحن نقدم خدمات استشارية وطبية فقط، ولا نقوم ببيع أو الترويج لأي منتجات. جميع الخدمات المقدمة هي خدمات استشارية وطبية محضة.
+            </p>
+            <p className="text-gray-800 font-semibold mt-4">
+              Important Notice: The services provided through this website are not related to selling or advertising any medical or pharmaceutical products. We provide only advisory and medical services.
+            </p>
+          </div>
+
           <h2 className="text-2xl font-bold text-pink-700 mt-8 mb-4">Children's Information</h2>
           <p>
             Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.

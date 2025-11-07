@@ -50,6 +50,38 @@ export const Services = () => {
             );
           })}
         </div>
+
+        {/* Service Disclaimer */}
+        <div className="mt-12 max-w-4xl mx-auto">
+          <div className="bg-gradient-to-r from-yellow-50 to-orange-50 border-2 border-yellow-400 rounded-2xl p-6 lg:p-8 shadow-lg">
+            <div className="flex items-start gap-4">
+              <div className="flex-shrink-0">
+                <div className="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center">
+                  <span className="text-2xl">⚠️</span>
+                </div>
+              </div>
+              <div className="flex-1">
+                <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                  تنبيه مهم / Important Notice
+                </h3>
+                <div className="space-y-3 text-gray-800">
+                  <p className="font-semibold text-lg border-b border-yellow-300 pb-2">
+                    الخدمات المقدمة غير متعلقة بالبيع أو الدعاية لأي منتجات
+                  </p>
+                  <p className="leading-relaxed">
+                    جميع الخدمات المقدمة من خلال هذا الموقع هي خدمات استشارية وطبية فقط. نحن <strong className="text-red-600">لا نقوم ببيع</strong> أو <strong className="text-red-600">الترويج</strong> لأي منتجات طبية أو دوائية. هدفنا هو تقديم الاستشارات الطبية والخدمات الصحية فقط.
+                  </p>
+                  <p className="font-semibold text-lg border-b border-yellow-300 pb-2 pt-4">
+                    Services are not related to selling or advertising products
+                  </p>
+                  <p className="leading-relaxed">
+                    All services provided through this website are <strong>advisory and medical services only</strong>. We <strong className="text-red-600">do not sell</strong> or <strong className="text-red-600">promote</strong> any medical or pharmaceutical products. Our goal is to provide medical consultations and health services only.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

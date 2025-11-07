@@ -16,6 +16,17 @@ export const Contact = () => {
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Visit us at our location or get in touch through any of the following ways
           </p>
+          
+          {/* WhatsApp Privacy Notice */}
+          <div className="mt-8 max-w-3xl mx-auto bg-blue-50 border-l-4 border-blue-500 rounded-lg p-6 text-right">
+            <h3 className="text-lg font-bold text-blue-900 mb-3">خصوصية التواصل عبر WhatsApp</h3>
+            <p className="text-gray-700 mb-2">
+              عند التواصل معنا عبر WhatsApp، فإنك توافق على مشاركة بياناتك الشخصية (رقم الهاتف، الاسم، والمعلومات المقدمة) معنا لتقديم الخدمات المطلوبة.
+            </p>
+            <p className="text-gray-700 font-semibold">
+              By contacting us via WhatsApp, you agree to share your personal data with us for service purposes.
+            </p>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
